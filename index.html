@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🛒 Product Filter</h1>
+
+    <!-- Search -->
+    <input type="text" id="searchInput" placeholder="Search products..." />
+
+    <!-- Category Filters -->
+    <div class="filters">
+      <button class="filter-btn" data-category="all">All</button>
+      <button class="filter-btn" data-category="electronics">Electronics</button>
+      <button class="filter-btn" data-category="clothing">Clothing</button>
+      <button class="filter-btn" data-category="books">Books</button>
+    </div>
+
+    <!-- Product List -->
+    <div id="productList" class="product-list">
+      <!-- Products will be rendered here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
